@@ -1,4 +1,8 @@
 ffmpeg -i zhuang.mp4 -vf "ass=zhuang_en_fixed.ass" -c:a copy zhuang_final.mp4
 
+Above is the code to make new mp4 file not in virtual environment
 
- Above is the code to run the file not in virtual environment
+
+python srt_to_ass.py
+
+Above is to create ass file
